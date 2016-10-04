@@ -1,1 +1,0 @@
-Scripting useful shell commands.
