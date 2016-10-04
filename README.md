@@ -1,1 +1,1 @@
-Project to learn about shell commands and sysadmin tools.
+Project for learning shell commands and sysadmin tools.
