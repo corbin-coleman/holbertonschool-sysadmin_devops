@@ -1,3 +1,2 @@
 #!/bin/bash
-printf '%s\n' {a..n}{a..z} {p..z}{a..z} o{a..n} o{p..z}
- 
+printf '%s\n' {a..n}{a..z} {p..z}{a..z} o{a..n} o{p..z} | sort
