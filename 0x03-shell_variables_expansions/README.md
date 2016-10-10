@@ -1,0 +1,1 @@
+This file teaches more commands to use in the shell for init files, variables, and expansions.
