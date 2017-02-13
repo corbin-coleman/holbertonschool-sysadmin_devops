@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# This script will loop 10 times, on loop 4 it will display bad luck on loop 8 it will display good luck, all other loops it will display Holberton School
+
+((i = 0))
+while ((i < 10)); do
+      if ((i == 3)); then echo "bad luck";
+      elif ((i == 7)); then echo "good luck";
+      else echo "Holberton School"; fi
+      ((i++))
+done
