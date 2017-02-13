@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Display all content from currenty directory, only display the name after the first dash
+
+for i in `ls | cut -d '-' -f2`; do
+    echo "$i"
+done
