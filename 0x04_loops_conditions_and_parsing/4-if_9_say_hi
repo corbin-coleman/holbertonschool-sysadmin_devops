@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# This script will display Holberton School 10 times, but the 9th time it says hi instead
+
+((i=0))
+while ((i < 10)); do
+      if ((i == 8)); then echo "Hi";
+      else echo "Holberton School"; fi
+      ((i++))
+done
