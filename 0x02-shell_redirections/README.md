@@ -1,0 +1,1 @@
+This project is a series of scripts on how to redirect different inputs/outputs in the shell.

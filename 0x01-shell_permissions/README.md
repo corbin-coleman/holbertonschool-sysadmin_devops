@@ -1,0 +1,1 @@
+This project will show different ways to manage permissions.
