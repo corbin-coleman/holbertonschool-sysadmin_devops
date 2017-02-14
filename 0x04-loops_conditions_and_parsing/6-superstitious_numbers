@@ -9,7 +9,7 @@ while ((i <= 20)); do
 	    echo "bad luck from China"
 	    ;;
 	9)
-	    echo "bad luck form Japan"
+	    echo "bad luck from Japan"
 	    ;;
 	17)
 	    echo "bad luck from Italy"
