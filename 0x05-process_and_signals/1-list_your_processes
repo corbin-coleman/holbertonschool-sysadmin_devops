@@ -1,2 +1,2 @@
 #!/bin/bash
-ps u -e
+ps u -e --forest
