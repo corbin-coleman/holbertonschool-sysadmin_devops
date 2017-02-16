@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Can't be killed using SIGINT
 while true; do
       echo "To infinity and beyond"
       trap 'echo "I am invincible!!!";' TERM

@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
+# print out a full list of processes
 ps u -e --forest

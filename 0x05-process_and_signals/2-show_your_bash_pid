@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
+# only print out the running bash processes
 # shellcheck disable=SC2009
 ps u -e --forest | grep 'bash'
