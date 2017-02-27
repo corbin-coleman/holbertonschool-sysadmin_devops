@@ -2,3 +2,4 @@
 # Install nginx
 sudo apt-get install -y nginx
 echo "Holberton School" | sudo -tee /usr/share/nginx/html/index.html
+sudo service nginx start
