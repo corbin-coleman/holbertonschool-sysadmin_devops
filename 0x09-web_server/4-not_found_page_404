@@ -2,6 +2,7 @@
 # Create a 404 error page
 sudo apt-get update
 sudo apt-get install -y nginx
-echo "Ceci n'est pas une page" > /usr/share/nginx/html/404.html
+suod service nginx start
 sudo sed -i "s/#error_page 404/error_page 404/" /etc/nginx/sites-available/default
-sudo service nginx start
+echo "Ceci n'est pas une page" | sudo tee /usr/share/nginx/html/404.html
+sudo service nginx restart
