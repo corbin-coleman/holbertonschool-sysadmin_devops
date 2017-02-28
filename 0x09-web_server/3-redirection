@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# redirect to another page
+sudo sed -i "36i\		rewrite ^/redirect_me https://www.youtube.com/watch?v=bfrP4MEXawA permanent;\n" /etc/nginx/sites-enabled/default
+sudo service nginx restart
