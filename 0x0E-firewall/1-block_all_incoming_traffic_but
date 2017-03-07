@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# set up a firewall using ufw, deny all incoming traffic except 22, 443, 80
+sudo ufw default deny incoming
+sudo ufw allow ssh
+sudo ufw allow 443
+sudo ufw allow 80
+sudo ufw enable
