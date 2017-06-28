@@ -1,6 +1,6 @@
 # Holberton School Sysadmin Devops
 
-This repository contains all of the projects done for Holberton School's Sysadmin Devops track. The projects in this repo range from learning the basic of Linux shell commands to creating scripts to automate tasks, as well as looking at network configurations and debugging broken web stacks.
+This repository contains all of the projects done for Holberton School's Sysadmin Devops track. The projects in this repo range from learning the basics of Linux shell commands to creating scripts to automate tasks, as well as looking at network configurations and debugging broken web stacks.
 
 ### For information on Holberton School look <a href="https://www.holbertonschool.com/about">here</a>.
 
